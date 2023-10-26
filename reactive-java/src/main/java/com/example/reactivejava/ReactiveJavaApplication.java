@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReactiveJavaApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Loading Reactive application ...");
 		SpringApplication.run(ReactiveJavaApplication.class, args);
 	}
 
